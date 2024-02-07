@@ -7,12 +7,6 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'blue': '#0013BA',
-      'white': '#ffffff',
-    },
     extend: {
       fontFamily: {
       sans: ['Poppins', ...defaultTheme.fontFamily.sans]

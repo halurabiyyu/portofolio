@@ -11,7 +11,7 @@ const Sidenav = () => {
   return (
     <div>
       <div>
-        <div className="bg-blue">
+        <div className="bg-white">
           <AiOutlineMenu
             size={30}
             onClick={handleNav}
@@ -22,21 +22,21 @@ const Sidenav = () => {
           <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
             <a
               href="#main"
-              className="w-[60%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
+              className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <AiOutlineHome size={20} />
               <span className="pl-4">Home</span>
             </a>
             <a
               href="#project"
-              className="w-[60%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
+              className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <MdOutlineWeb size={20} />
               <span className="pl-4">Projects</span>
             </a>
             <a
               href="#contact"
-              className="w-[60%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
+              className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <AiOutlineMail size={20} />
               <span className="pl-4">Contact</span>
@@ -45,10 +45,12 @@ const Sidenav = () => {
         ) : (
           ""
         )}
-        <div className="md:block hidden bg-blue">
+        <div className="md:block hidden bg-[#0013ba]">
           <div className="flex justify-between ">
             <div className="mx-[50px] p-3">
-              <h1 className="text-white font text-[32px] font-bold">PORTOFOLIO</h1>
+              <h1 className="text-white font text-4xl font-bold">
+                PORTOFOLIO
+              </h1>
             </div>
             <div className="flex flex-row ">
               <a
