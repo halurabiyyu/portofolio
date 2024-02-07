@@ -58,7 +58,7 @@ const Sidenav = () => {
                 <span className="">About Me</span>
               </a>
               <a
-                href="#project"
+                href="#projects"
                 className="flex justify-center text-white items-center m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 <span className="pl-2">Projects</span>
