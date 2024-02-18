@@ -7,7 +7,7 @@ import Wave from "../assets/wave.svg"
 
 const Projects = () => {
   return (
-    <div id="projects" className="bg-[#0013ba]">
+    <div id="projects" className="bg-[#E74646]">
       <div className="max-w-[1080px] w-full m-auto p-4 py-20">
         <h1 className="text-4xl font-bold text-center text-white">Projects</h1>
         <p className="text-center text-white py-8">
@@ -22,7 +22,7 @@ const Projects = () => {
           <ProjectItem img={calculatorImg} title="Calculator"/>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L48,213.3C96,235,192,277,288,272C384,267,480,213,576,192C672,171,768,181,864,197.3C960,213,1056,235,1152,240C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFF3E2" fill-opacity="1" d="M0,192L48,213.3C96,235,192,277,288,272C384,267,480,213,576,192C672,171,768,181,864,197.3C960,213,1056,235,1152,240C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </div>
   );
 };

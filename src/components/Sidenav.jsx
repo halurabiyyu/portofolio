@@ -11,11 +11,11 @@ const Sidenav = () => {
   return (
     <div>
       <div>
-        <div className="bg-white">
+        <div className="relative bg-white">
           <AiOutlineMenu
             size={30}
             onClick={handleNav}
-            className="absolute top-4 right-4 z-[99] md:hidden cursor-pointer"
+            className="fixed top-4 right-4 z-[99] md:hidden cursor-pointer bg-"
           />
         </div>
         {nav ? (
@@ -45,29 +45,29 @@ const Sidenav = () => {
         ) : (
           ""
         )}
-        <div className="md:block hidden bg-[#0013ba]">
-          <div className="flex justify-between ">
+        <div className="relative md:block hidden bg-[#E74646]">
+          <div className="fixed flex justify-between bg-[#E74646] w-full">
             <div className="mx-[50px] p-3">
-              <h1 className="text-white font text-4xl font-bold">
-                PORTOFOLIO
+              <h1 className="text-[#FFF3E2] font text-2xl font-bold">
+                Halur Muhammad Abiyyu
               </h1>
             </div>
             <div className="flex flex-row ">
               <a
                 href="#main"
-                className="flex justify-center text-white items-center m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+                className="flex justify-center text-[#FFF3E2] items-center m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 <span className="">About Me</span>
               </a>
               <a
                 href="#projects"
-                className="flex justify-center text-white items-center m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+                className="flex justify-center text-[#FFF3E2] items-center m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 <span className="pl-2">Projects</span>
               </a>
               <a
                 href="#contact"
-                className="flex justify-center text-white items-center m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+                className="flex justify-center text-[#FFF3E2] items-center m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
               >
                 <span className="pl-2">Contact</span>
               </a>
